@@ -25,7 +25,15 @@ export const Landing = () => {
             </div>
           </div>
         </div>
-        <div id="recommendations"></div>
+        <div className="p-20" id="recommendations">
+          <div className="h-64 w-48 overflow-hidden rounded-lg shadow-md">
+            <div className="h-3/5 w-full bg-norway bg-cover" />
+            <div className="h-2/5 w-full bg-secondary">
+              <p>Norway</p>
+              <p>Beautiful landscapes</p>
+            </div>
+          </div>
+        </div>
         <div id="featured-rents"></div>
       </section>
       <footer></footer>
