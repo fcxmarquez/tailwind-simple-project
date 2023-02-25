@@ -29,8 +29,8 @@ export const Landing = () => {
           <div className="h-64 w-48 overflow-hidden rounded-lg shadow-md">
             <div className="h-3/5 w-full bg-norway bg-cover" />
             <div className="h-2/5 w-full bg-secondary">
-              <p>Norway</p>
-              <p>Beautiful landscapes</p>
+              <p className="text-white text-bold text-xl px-4 py-2">Norway</p>
+              <p className="text-white text-md px-4">Beautiful landscapes</p>
             </div>
           </div>
         </div>
