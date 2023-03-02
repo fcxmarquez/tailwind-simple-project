@@ -1,4 +1,5 @@
 import sanFranciscoImg from "../assets/img/sanFrancisco.jpg";
+import { Card } from "../components/Card/Card";
 
 export const Landing = () => {
   return (
@@ -26,13 +27,7 @@ export const Landing = () => {
           </div>
         </div>
         <div className="p-20" id="recommendations">
-          <div className="h-64 w-48 overflow-hidden rounded-lg shadow-md">
-            <div className="h-3/5 w-full bg-norway bg-cover" />
-            <div className="h-2/5 w-full bg-secondary">
-              <p className="text-white text-bold text-xl px-4 py-2">Norway</p>
-              <p className="text-white text-md px-4">Beautiful landscapes</p>
-            </div>
-          </div>
+          <Card />
         </div>
         <div id="featured-rents"></div>
       </section>

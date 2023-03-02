@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card {
+  @apply h-64 w-48 overflow-hidden rounded-lg shadow-md
+}
